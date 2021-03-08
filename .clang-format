@@ -1,0 +1,44 @@
+﻿---
+BasedOnStyle: LLVM
+AccessModifierOffset: '0'
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'false'
+AlignConsecutiveMacros: 'true'
+AlignEscapedNewlines: Left
+AlignOperands: 'true'
+AlignTrailingComments: 'true'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortCaseLabelsOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+BreakBeforeBraces: Allman
+BreakBeforeTernaryOperators: 'true'
+BreakConstructorInitializers: AfterColon
+ColumnLimit: '0'
+ConstructorInitializerAllOnOneLineOrOnePerLine: 'false'
+ConstructorInitializerIndentWidth: '4'
+ContinuationIndentWidth: '4'
+IndentCaseLabels: 'true'
+IndentPPDirectives: None
+IndentWidth: '4'
+KeepEmptyLinesAtTheStartOfBlocks: 'false'
+MaxEmptyLinesToKeep: '1'
+PointerAlignment: Right
+ReflowComments: 'false'
+SortIncludes: 'false'
+SortUsingDeclarations: 'false'
+SpaceAfterCStyleCast: 'false'
+SpaceAfterTemplateKeyword: 'false'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: 'false'
+SpacesInCStyleCastParentheses: 'false'
+SpacesInContainerLiterals: 'false'
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'false'
+Standard: Auto
+TabWidth: '4'
+UseTab: Never
+
+...

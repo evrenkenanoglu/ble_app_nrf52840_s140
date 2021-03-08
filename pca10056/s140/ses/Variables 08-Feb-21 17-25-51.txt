@@ -1,0 +1,32 @@
+actual_length                          0x2000                          0x2003fe02    2     short unsigned int             
+adv_data_format                        0x00                            0x2003fe0f    1     unsigned char                  
+err_code                               0x00000000                      0x2003fe08    4     unsigned int                   
+max_size                               0x001e                          0x2003fdf2    2     short unsigned int             
+p_advdata                              0x2003fe8c                      0x2003fdfc    60    const ble_advdata_t*           
+    *                                  <struct>                        0x2003fe8c    60    struct                         
+        name_type                      BLE_ADVDATA_FULL_NAME           0x2003fe8c    1     enum                           
+        short_name_len                 0x00                            0x2003fe8d    1     unsigned char                  
+        include_appearance             false                           0x2003fe8e    0     _Bool                          
+        flags                          0x04                            0x2003fe8f    1     unsigned char                  
+        p_tx_power_level               0x00000000                      0x2003fe90    4     int8_t*                        
+        uuids_more_available           <struct>                        0x2003fe94    8     struct                         
+            uuid_cnt                   0x0000                          0x2003fe94    2     short unsigned int             
+            p_uuids                    0x00000000                      0x2003fe98    4     ble_uuid_t*                    
+        uuids_complete                 <struct>                        0x2003fe9c    8     struct                         
+            uuid_cnt                   0x0000                          0x2003fe9c    2     short unsigned int             
+            p_uuids                    0x00000000                      0x2003fea0    4     ble_uuid_t*                    
+        uuids_solicited                <struct>                        0x2003fea4    8     struct                         
+            uuid_cnt                   0x0000                          0x2003fea4    2     short unsigned int             
+            p_uuids                    0x00000000                      0x2003fea8    4     ble_uuid_t*                    
+        p_slave_conn_int               0x00000000                      0x2003feac    4     ble_advdata_conn_int_t*        
+        p_manuf_specific_data          0x2003fe80                      0x2003feb0    4     ble_advdata_manuf_data_t*      
+        p_service_data_array           0x00000000                      0x2003feb4    4     ble_advdata_service_data_t*    
+        service_data_count             0x00                            0x2003feb8    1     unsigned char                  
+        include_ble_device_addr        false                           0x2003feb9    0     _Bool                          
+        le_role                        BLE_ADVDATA_ROLE_NOT_PRESENT    0x2003feba    1     enum                           
+        p_tk_value                     0x00000000                      0x2003febc    4     ble_advdata_tk_value_t*        
+        p_sec_mgr_oob_flags            0x00000000                      0x2003fec0    4     uint8_t*                       
+        p_lesc_data                    0x00000000                      0x2003fec4    4     ble_gap_lesc_oob_data_t*       
+p_encoded_data                         0x2000222a                      0x2003fdf8    4     uint8_t*                       
+p_offset                               0x20002268                      0x2003fdf4    4     uint16_t*                      
+rem_adv_data_len                       0x0019                          0x2003fe0c    2     short unsigned int             

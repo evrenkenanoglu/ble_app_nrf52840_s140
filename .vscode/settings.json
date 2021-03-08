@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "nrf_error.h": "c",
+        "ble_advertising.h": "c",
+        "ble_advdata.h": "c",
+        "sdk_common.h": "c",
+        "nrf_ble_scan.h": "c",
+        "bsp_btn_ble.h": "c"
+    }
+}
